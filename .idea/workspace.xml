@@ -8,7 +8,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/user" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectId" id="1t6d1ot6dRMnzYiXqr5C8JPlWfZ" />
@@ -50,10 +50,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="Excellence technologies python task" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="323" y="0" key="CommitChangelistDialog2" timestamp="1622093521729">
+    <state x="323" y="0" key="CommitChangelistDialog2" timestamp="1622094576373">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="323" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1622093521729" />
+    <state x="323" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1622094576373" />
     <state x="463" y="105" key="FileChooserDialogImpl" timestamp="1622093317044">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
