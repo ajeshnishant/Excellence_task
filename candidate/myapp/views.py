@@ -23,12 +23,9 @@ class TestScoreViewSet(ModelViewSet):
 
 class AverageScore(APIView):
     def get(self, request):
-        average = TestScore.objects.all().aggregate(Avg('first_round')), TestScore.objects.all().aggregate(
-            Max('first_round')) \
-            , TestScore.objects.all().aggregate(Avg('second_round')), TestScore.objects.all().aggregate(
-            Max('second_round')) \
-            , TestScore.objects.all().aggregate(Avg('third_round')), TestScore.objects.all().aggregate(
-            Max('third_round'))
+        average = TestScore.objects.all().aggregate(Avg('first_round')),\
+            , TestScore.objects.all().aggregate(Avg('second_round')), \
+            , TestScore.objects.all().aggregate(Avg('third_round'))
 
         return Response(average)
 
