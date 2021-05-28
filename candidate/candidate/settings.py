@@ -84,12 +84,12 @@ WSGI_APPLICATION = 'candidate.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'ENGINE': 'django.db.backends.mysql',
         'NAME': 'task',
-        'USER': 'postgres',
+        'USER': 'root',
         'PASSWORD': 'Ajesh@123',
         'HOST': '127.0.0.1',
-        'PORT': '5432',
+        'PORT': '3306',
     }
 }
 
