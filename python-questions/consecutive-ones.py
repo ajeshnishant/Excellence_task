@@ -10,7 +10,7 @@ def consecutive_ones(li):
             end = highest
             count = 0
 
-    return "Number of consecutive one's are : {}".format(highest if highest > end else end)
+    return "Maximum number of consecutive one's are : {}".format(highest if highest > end else end)
 
 
 lst1 = [0, 0, 0, 1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 0, 0, 1, 1]
